@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="invapp">
+		<class>com.invapp.entidades.Activo</class>
+		<class>com.invapp.entidades.ActivosFijo</class>
+		<class>com.invapp.entidades.Almacen</class>
+		<class>com.invapp.entidades.Articulo</class>
+		<class>com.invapp.entidades.ArticulosAlmacen</class>
+		<class>com.invapp.entidades.Cliente</class>
+		<class>com.invapp.entidades.Cuenta</class>
+		<class>com.invapp.entidades.Empleado</class>
+		<class>com.invapp.entidades.GananciaPorcentual</class>
+		<class>com.invapp.entidades.InvDetalle</class>
+		<class>com.invapp.entidades.Inventario</class>
+		<class>com.invapp.entidades.Pai</class>
+		<class>com.invapp.entidades.Pasivo</class>
+		<class>com.invapp.entidades.Provincia</class>
+		<class>com.invapp.entidades.Sector</class>
+		<class>com.invapp.entidades.TipoEmpresa</class>
+	</persistence-unit>
+</persistence>
